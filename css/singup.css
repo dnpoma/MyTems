@@ -1,0 +1,160 @@
+/* normalizer */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+/* etiquetas */
+html {
+    font-size: 90%;
+    color: white;
+    /* font-size: 62.5%; */
+    font-family: 'Poppins', sans-serif;
+    background-color: var(--secundary-blue);
+}
+
+body{
+    background: linear-gradient(180deg, #0F1E2D 0%, #333764 100%);
+}
+
+
+
+header{
+    background-color: var(--secundary-blue);
+    align-items: center;
+    padding: 1em 0 1em 0;
+}
+
+a {
+    color: var(--white);
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+}
+
+ul {
+    list-style: none;
+}
+
+/* Clases */
+
+.logo--style{
+    font-weight: bold;
+    font-size: 18px;
+    display: flex;
+    align-items: end;
+}
+
+.logo--style img{
+    width: 30px;
+}
+
+.container{
+    max-width: 1000px;
+    width: 100%;
+    flex: 1;
+    margin: 0 auto;
+    display: inherit;
+    justify-content: inherit;
+    align-items: inherit;
+    height: inherit;
+    flex-wrap: inherit;
+}
+
+.header--navbar-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header--link{
+    justify-content: space-evenly;
+    margin: 0em 0.5em;
+}
+.header--link-login{
+    border: 1px solid var(--white);
+    padding: 0.5em;
+    box-sizing: border-box;
+    border-radius: 130px;
+}
+.header--link-start{
+    padding: 0.5em;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), var(--primary-blue);
+    border-radius: 75px;
+}
+
+.main-hero{
+    background-image: url(../assets/imgs/Background.png);
+    height: 700px;
+    background-size: cover;
+    background-position: center;
+    padding-top: 9em;
+
+}
+
+/* Index */
+
+.background--form{
+    background-image: url(../assets/imgs/starry.png);
+    mix-blend-mode: lighten;
+    height: 700px;
+}
+
+.header--loging{
+    text-decoration-line: underline;
+    line-height: 1.5em;
+}
+
+.singup--title h1{
+    margin-left: 5em;
+    color: white;
+}
+
+.sinup-container{
+    margin-top: 2em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.items--text{
+    width: 100%;
+    height: 34px;
+    left: 559px;
+    top: 248px;
+    
+    border: 1px solid #919191;
+    box-sizing: border-box;
+    border-radius: 4px;
+}
+
+.container-singup--form{
+    margin-top: 2em;
+    
+}
+
+.sinup-content{
+    background: rgba(184, 173, 173, 0.22);
+    border-radius: 16px;
+    padding: 2em;
+}
+
+.sinup-content label{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: white;
+}
+
+.sinup--items-date{
+    display: flex;
+    justify-content: space-around;
+}
+
+.date-items{
+    display: flex;
+}
